@@ -7,7 +7,7 @@ define('PASSWORD', '');
 define('NOMBRE_BD', 'iwatchsolution');
 
 //Rutas De La Web
-define("RT", "http://localhost:8080/iwatchsolution/");
+define("RT", "https://kevinloredo.github.io/iWatchSolution/");
 define("RUTA_REGISTRO", RT. "Registro.php");
 define("RUTA_REGISTRO_CORRECTO", RT. "Registro_Correcto.php");
 define("RUTA_LOGIN", RT. "Login.php");
