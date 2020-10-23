@@ -1,0 +1,73 @@
+.formulario
+{
+    background: #fff;
+    margin-top: 150px;
+    padding: 1px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    font-size: 23px;
+    width: 92.1%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor
+{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.button
+{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background: cadetblue;
+}
+
+.icon
+{
+    min-width: 35px;
+    font-size: 22px;
+    text-align: center;
+    color: #999;
+}
+
+.link
+{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+}
+
+.link:hover
+{
+     color: black;
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        text-align: center;
+        width: 800px;
+        height: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #fff;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+}

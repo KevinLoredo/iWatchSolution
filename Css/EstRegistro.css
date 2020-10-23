@@ -1,0 +1,78 @@
+.formulario
+{
+    background: #fff;
+    margin-top: 150px;
+    padding: 1px;
+}
+
+.contenedor
+{
+    width: 100%;
+    padding: 15px;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px #aaa;
+}
+
+.button
+{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background: cadetblue;
+}
+
+.iconNomb {
+    min-width: 35px;
+    font-size: 22px;
+    text-align: center;
+    color: #999;
+}
+
+.iconDirec {
+    min-width: 35px;
+    font-size: 22px;
+    text-align: center;
+    color: #999;
+}
+
+.iconCiud {
+    min-width: 35px;
+    font-size: 22px;
+    text-align: center;
+    color: #999;
+}
+
+.iconTel {
+    min-width: 35px;
+    font-size: 26px;
+    text-align: center;
+    color: #999;
+}
+
+
+
+@media(min-width:768px) {
+    .formulario {
+        margin: auto;
+        text-align: center;
+        width: 1000px;
+        height: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #fff;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+}
