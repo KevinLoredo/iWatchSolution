@@ -1,11 +1,3 @@
-<?php
-include_once 'Php/Conexion.inc.php';
-include_once 'PhpUser/RepositorioUsuario.inc.php';
-
-Conexion :: AbrirConexion();
-$TotalUsuariosArray = RepositorioUsuario :: ObtNumUsuarios(Conexion::ObtConexion());
-Conexion :: CerrarConexion();
-?>
 <!DOCTYPE html>
 <html lang = "es">
     <head>
